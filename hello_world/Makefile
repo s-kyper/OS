@@ -7,4 +7,4 @@ hello_world: hello_world.o
 	gcc -s hello_world.o -o hello_world
 
 clean:
-	rm hello_world hello_world.o
+	rm -f hello_world hello_world.o
